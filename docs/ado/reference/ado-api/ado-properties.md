@@ -36,31 +36,31 @@ ms.locfileid: "35275583"
 |[BOF и конца файла](../../../ado/reference/ado-api/bof-eof-properties-ado.md)|**BOF** указывает, что положение текущей записи перед первой записью в объекте набора записей.<br /><br /> **EOF** указывает, что положение текущей записи после последней записи в объект набора записей.|  
 |[Закладка](../../../ado/reference/ado-api/bookmark-property-ado.md)|Указывает закладка, которая однозначно определяет текущую запись в **записей** объекта или задает текущую запись **записей** объект для записи, определяемый допустимую закладку.|  
 |[cacheSize](../../../ado/reference/ado-api/cachesize-property-ado.md)|Указывает количество записей из **записей** объекта, которые локально кэшируются в памяти.|  
-|[Глава](../../../ado/reference/ado-api/chapter-property-ado.md)|Возвращает или задает поставщика OLE DB **главе** объекта из/в **ADORecordsetConstruction** объекта.|  
-|[Набор символов](../../../ado/reference/ado-api/charset-property-ado.md)|Указывает кодировку, в которой содержимое текстового **поток** должны преобразовываться.|  
+|[Chapter](../../../ado/reference/ado-api/chapter-property-ado.md)|Возвращает или задает поставщика OLE DB **главе** объекта из/в **ADORecordsetConstruction** объекта.|  
+|[CharSet](../../../ado/reference/ado-api/charset-property-ado.md)|Указывает кодировку, в которой содержимое текстового **поток** должны преобразовываться.|  
 |[CommandStream](../../../ado/reference/ado-api/commandstream-property-ado.md)|Указывает поток, используемый в качестве входного для **команда** объекта.|  
 |[commandText](../../../ado/reference/ado-api/commandtext-property-ado.md)|Показывает, что текст команды должна быть выдан для поставщика.|  
 |[CommandTimeout](../../../ado/reference/ado-api/commandtimeout-property-ado.md)|Указывает время ожидания при выполнении команды перед прекращением попытки и созданием ошибки.|  
 |[CommandType](../../../ado/reference/ado-api/commandtype-property-ado.md)|Указывает тип **команда** объекта.|  
 |[Свойство ConnectionString](../../../ado/reference/ado-api/connectionstring-property-ado.md)|Указывает сведения, используемые для установления соединения с источником данных.|  
 |[ConnectionTimeout](../../../ado/reference/ado-api/connectiontimeout-property-ado.md)|Указывает время ожидания при установлении подключения, по истечении которого попытка завершается и создается ошибка.|  
-|[Счетчик](../../../ado/reference/ado-api/count-property-ado.md)|Указывает количество объектов в коллекции.|  
+|[Count](../../../ado/reference/ado-api/count-property-ado.md)|Указывает количество объектов в коллекции.|  
 |[CursorLocation](../../../ado/reference/ado-api/cursorlocation-property-ado.md)|Указывает расположение службы курсора.|  
 |[CursorType](../../../ado/reference/ado-api/cursortype-property-ado.md)|Указывает тип курсора, используемого в **записей** объекта.|  
 |[DataMember](../../../ado/reference/ado-api/datamember-property.md)|Указывает имя элемента данных, которые будут извлечены из объекта, на который указывает **DataSource** свойство.|  
-|[Источник данных](../../../ado/reference/ado-api/datasource-property-ado.md)|Указывает объект, содержащий данные для представления в виде **записей** объекта.|  
+|[DataSource](../../../ado/reference/ado-api/datasource-property-ado.md)|Указывает объект, содержащий данные для представления в виде **записей** объекта.|  
 |[DefaultDatabase](../../../ado/reference/ado-api/defaultdatabase-property.md)|Указывает базу данных по умолчанию для **подключения** объекта.|  
 |[DefinedSize](../../../ado/reference/ado-api/definedsize-property.md)|Показывает объем данных **поле** объекта.|  
 |[Description](../../../ado/reference/ado-api/description-property.md)|Описывает **ошибка** объекта.|  
-|[Диалект](../../../ado/reference/ado-api/dialect-property.md)|Указывает, синтаксис и общие правила, поставщик будет использовать для синтаксического анализа **CommandText** или **CommandStream** свойства.|  
-|[Направление](../../../ado/reference/ado-api/direction-property.md)|Указывает, является ли **параметр** представляет входным параметром, выходным параметром или оба, или если параметр имеет значение, возвращаемое хранимой процедуры.|  
+|[Dialect](../../../ado/reference/ado-api/dialect-property.md)|Указывает, синтаксис и общие правила, поставщик будет использовать для синтаксического анализа **CommandText** или **CommandStream** свойства.|  
+|[Direction](../../../ado/reference/ado-api/direction-property.md)|Указывает, является ли **параметр** представляет входным параметром, выходным параметром или оба, или если параметр имеет значение, возвращаемое хранимой процедуры.|  
 |[EditMode](../../../ado/reference/ado-api/editmode-property.md)|Указывает состояние редактирования текущей записи.|  
-|[ЭЛЕКТРИЧЕСКОЙ ПЕРЕГРУЗКИ](../../../ado/reference/ado-api/eos-property.md)|Указывает, является ли текущая позиция в конце потока.|  
-|[Фильтр](../../../ado/reference/ado-api/filter-property.md)|Указывает фильтр для данных в **записей**.|  
+|[ЭЛЕКТРИЧЕСКОЙ ПЕРЕГРУЗКИ(EOS)](../../../ado/reference/ado-api/eos-property.md)|Указывает, является ли текущая позиция в конце потока.|  
+|[Filter](../../../ado/reference/ado-api/filter-property.md)|Указывает фильтр для данных в **записей**.|  
 |[HelpContext и файл справки](../../../ado/reference/ado-api/helpcontext-helpfile-properties.md)|Указывает файл справки и раздел, связанный с **ошибка** объекта.<br /><br /> **Идентификатор справки** возвращает идентификатор контекста, в виде **длинные** значение для раздела в файле справки.<br /><br /> **HelpFile** возвращает **строка** значение, результатом которого является полностью разрешенной путь к файлу справки.|  
 |[Index](../../../ado/reference/ado-api/index-property.md)|Указывает имя индекса в настоящее время действует для **записей** объекта.|  
 |[IsolationLevel](../../../ado/reference/ado-api/isolationlevel-property.md)|Указывает уровень изоляции для **подключения** объекта.|  
-|[Элемент](../../../ado/reference/ado-api/item-property-ado.md)|Указывает конкретный элемент коллекции по имени или порядковый номер.|  
+|[Item](../../../ado/reference/ado-api/item-property-ado.md)|Указывает конкретный элемент коллекции по имени или порядковый номер.|  
 |[LineSeparator](../../../ado/reference/ado-api/lineseparator-property-ado.md)|Указывает двоичный символ для использования в качестве разделителя строк в тексте **поток** объектов.|  
 |[LockType](../../../ado/reference/ado-api/locktype-property-ado.md)|Указывает тип блокировки записей во время редактирования.|  
 |[MarshalOptions](../../../ado/reference/ado-api/marshaloptions-property-ado.md)|Указывает, какие записи должны маршалироваться обратно на сервер.|  
